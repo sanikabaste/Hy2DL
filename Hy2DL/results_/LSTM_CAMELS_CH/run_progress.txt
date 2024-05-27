@@ -1,0 +1,11 @@
+Epoch: 1  | Loss training: 0.012 | Epoch time: 86.4  s | LR:0.00100 
+Epoch: 2  | Loss training: 0.007 | Epoch time: 80.7  s | LR:0.00100 
+Epoch: 3  | Loss training: 0.005 | Epoch time: 80.9  s | LR:0.00100 
+Epoch: 4  | Loss training: 0.005 | Epoch time: 80.5  s | LR:0.00100 
+Epoch: 5  | Loss training: 0.005 | Epoch time: 78.8  s | LR:0.00100 
+Epoch: 6  | Loss training: 0.004 | Epoch time: 79.8  s | LR:0.00100 
+Epoch: 7  | Loss training: 0.004 | Epoch time: 80.5  s | LR:0.00100 
+Epoch: 8  | Loss training: 0.004 | Epoch time: 80.2  s | LR:0.00100 
+Epoch: 9  | Loss training: 0.004 | Epoch time: 80.6  s | LR:0.00100 
+Epoch: 10 | Loss training: 0.004 | Loss validation: 0.828 | Epoch time: 81.3  s | LR:0.00100 
+Total training time: 809.8  s
