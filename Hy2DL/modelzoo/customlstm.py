@@ -54,14 +54,15 @@ class customLSTM(nn.Module):
             h0, c0 = hx
             cell_output = self.cell(x_t=x_t, h_0=h0, c_0=c0)
 
-            h_x = (cell_output['h_n'], cell_output['c_n'])
+            hx = (cell_output['h_n'], cell_output['c_n'])
 
             for key, cell_out in cell_output.items():
                 output[key].append(cell_out)
 
         # stack to [batch size, sequence length, hidden size]
         pred = {key: torch.stack(val, 1) for key, val in output.items()}
-        pred['y_hat'] = self.linear(self.dropout(pred['h_n']))
+        # pred['y_hat'] = self.linear(self.dropout(pred['h_n'][:,-1, :]))
+        pred.update({"y_hat": self.linear(self.dropout(pred['h_n'][:,-1, :]))})
         return pred
     
     def copy_weights(self, optimized_lstm: CudaLSTM):
