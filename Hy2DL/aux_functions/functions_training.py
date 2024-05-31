@@ -76,7 +76,7 @@ def weighted_rmse(y_sim: torch.tensor, y_obs: torch.tensor) -> torch.Tensor:
     y_sim_transformed = torch.log10(torch.sqrt(y_sim_masked + 1e-6) + 0.1)
     y_obs_transformed = torch.log10(torch.sqrt(y_obs_masked + 1e-6) + 0.1)
 
-    loss = 0.75 * torch.sqrt(torch.mean((y_sim_masked - y_obs_masked)**2)) +\
-        0.25*torch.sqrt(torch.mean((y_sim_transformed - y_obs_transformed)**2))
+    loss = 0.75 * torch.sqrt(torch.mean((y_sim_masked - y_obs_masked)**2)) + 0.25*torch.sqrt(torch.mean((y_sim_transformed - y_obs_transformed)**2))
+        
 
-    return loss
+    return (loss, y_sim_masked, y_obs_masked, y_sim_transformed, y_obs_transformed)

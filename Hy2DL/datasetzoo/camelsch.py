@@ -136,9 +136,20 @@ class CAMELS_CH(BaseDataset):
         df: pd.DataFrame
             Dataframe with the catchments` timeseries
         """
-        path_timeseries = Path(self.path_data) / 'timeseries' / 'observation_based' / f'CAMELS_CH_obs_based_{catch_id}.csv'
+        path_timeseries_obs = Path(self.path_data) / 'timeseries' / 'observation_based' / f'CAMELS_CH_obs_based_{catch_id}.csv'
         # load time series
-        df = pd.read_csv(path_timeseries)
-        df = df.set_index('date')
-        df.index = pd.to_datetime(df.index, format="%Y-%m-%d")
+        df_obs = pd.read_csv(path_timeseries_obs)
+        df_obs = df_obs.set_index('date')
+        df_obs.index = pd.to_datetime(df_obs.index, format="%Y-%m-%d")
+
+        # adding simulated time series
+        path_timeseries_sim = Path(self.path_data) / 'timeseries' / 'simulation_based' / f'CAMELS_CH_sim_based_{catch_id}.csv'
+        # load time series
+        df_sim = pd.read_csv(path_timeseries_sim)
+        df_sim = df_sim.set_index('date')
+        df_sim.index = pd.to_datetime(df_sim.index, format="%Y-%m-%d")
+
+        # concatenating observed timeseries with simulated time series
+        df = pd.concat([df_obs, df_sim], axis=1)
+        
         return df
