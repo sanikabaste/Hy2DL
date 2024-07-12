@@ -6,12 +6,17 @@ from basedataset import BaseDataset
 
 
 class CAMELS_CH(BaseDataset):
+
     """Class to process the CAMELS CH data set by [1]_ . 
     
     The class inherits from BaseDataset to execute the operations on how to load and process the data. However here we
     code the _read_attributes and _read_data methods, that specify how we should read the information from CAMELS-CH.
 
+
+    This class and its methods were taken from Neural Hydrology [#]_ and adapted for our specific case. 
+
     This class and its methods were taken from Neural Hydrology [2]_ and adapted for our specific case. 
+
 
     The CAMELS CH data set provides both observed and simulated static attributes as well as time series
     This code reads the observed static attributes and time series
@@ -20,6 +25,7 @@ class CAMELS_CH(BaseDataset):
     ----------
     dynamic_input : List[str]
         name of variables used as dynamic series input in the lstm
+
     target : List[str]
         target variable(s)
     sequence_length : int
@@ -42,6 +48,7 @@ class CAMELS_CH(BaseDataset):
     static_input : Optional[List[str]] = []
         name of static inputs used as input in the lstm (e.g. catchment attributes)
     conceptual_input : Optional[List[str]] = []
+
         Optional parameter. We need this when we use hybrid models. Name of variables used as dynamic series input in 
         the conceptual model
     check_Nan: : Optional[bool] = True
@@ -49,14 +56,18 @@ class CAMELS_CH(BaseDataset):
     
     References
     ----------
+
     .. [1] Höge, M., Kauzlaric, M., Siber, R., Schönenberger, U., Horton, P., Schwanbeck, J., Floriancic,
+
         M. G., Viviroli, D., Wilhelm, S., Sikorska-Senoner, A. E., Addor, N., Brunner, M., Pool, S., Zappa, M.,
         and Fenicia, F.: CAMELS-CH: hydro-meteorological time series and landscape attributes for 331 catchments
         in hydrologic Switzerland, Earth Syst. Sci. Data, 15, 5755–5784,
         https://doi.org/10.5194/essd-15-5755-2023, 2023.
+
     .. [2] F. Kratzert, M. Gauch, G. Nearing and D. Klotz: NeuralHydrology -- A Python library for Deep Learning
         research in hydrology. Journal of Open Source Software, 7, 4050, doi: 10.21105/joss.04050, 2022 
     """
+
     def __init__(self, 
                  dynamic_input: List[str],
                  target: List[str], 
@@ -91,7 +102,9 @@ class CAMELS_CH(BaseDataset):
 
         Returns
         -------
+
         df : pd.DataFrame
+
             Dataframe with the catchments` attributes
         """
         # files that contain the attributes
@@ -113,10 +126,12 @@ class CAMELS_CH(BaseDataset):
             if df_attributes[column].dtype not in ['float64', 'int64']:
                 df_attributes[column], _ = pd.factorize(df_attributes[column], sort=True)
         
+
         # Filter attributes and basins of interest
         df_attributes = df_attributes.loc[self.entities_ids, self.static_input]
 
         return df_attributes
+
 
     def _read_data(self, catch_id: str)-> pd.DataFrame:
         """Read the catchments` timeseries
