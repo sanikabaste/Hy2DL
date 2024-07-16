@@ -7,7 +7,7 @@ from typing import List, Dict, Optional
 from numba import njit, prange
 
 
-class BaseDataset_transformer(Dataset):
+class BaseDataset_Transformer(Dataset):
     """Base data set class to read and process data.
 
     This class is inherited by the other subclasses (e.g. CAMELS_US, CAMELS_GB) to read and process the data. The class
