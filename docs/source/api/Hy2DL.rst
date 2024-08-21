@@ -1,5 +1,5 @@
 Hy2DL API
-=========
+===================
 
 .. automodule:: Hy2DL
    :members:
@@ -8,7 +8,7 @@ Hy2DL API
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    Hy2DL.datasetzoo
    Hy2DL.modelzoo
