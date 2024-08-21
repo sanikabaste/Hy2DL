@@ -7,7 +7,7 @@ Hy2DL API
    :show-inheritance:
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
    Hy2DL.datasetzoo
    Hy2DL.modelzoo
