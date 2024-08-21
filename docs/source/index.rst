@@ -14,4 +14,4 @@ In addition to Long Short Term Memory (LSTM) network architectures, the reposito
    :maxdepth: 1
    :caption: Contents:
 
-   usage/Prerequisites
+   usage
