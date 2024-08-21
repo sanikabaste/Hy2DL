@@ -5,3 +5,8 @@ Hy2DL API
    :members:
    :undoc-members:
    :show-inheritance:
+
+.. toctree::
+   :maxdepth: 4
+
+   Hy2DL.datasetzoo
