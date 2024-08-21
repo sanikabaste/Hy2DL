@@ -15,4 +15,4 @@ In addition to Long Short Term Memory (LSTM) network architectures, the reposito
    :caption: Contents:
 
    usage/initialsteps
-   api/Hy2DL
+   api/hy2dl
