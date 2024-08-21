@@ -18,8 +18,10 @@ extensions = [
     'sphinx.ext.autodoc',  # autodocument
     'sphinx.ext.napoleon',  # google and numpy doc string support
     'sphinx.ext.mathjax',  # latex rendering of equations using MathJax
-    'nbsphinx',  # for direct embedding of jupyter notebooks into sphinx docs
-    'nbsphinx_link'  # to be able to include notebooks from outside of the docs folder
+    'sphinx.ext.duration',
+    'sphinx.ext.doctest',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.intersphinx',
 ]
 
 # List of patterns, relative to source directory, that match files and
