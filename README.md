@@ -1,7 +1,7 @@
 # Hy<sup>2</sup>DL: Hybrid Hydrological modeling using Deep Learning methods
 [![DOI](https://zenodo.org/badge/684006081.svg)](https://zenodo.org/doi/10.5281/zenodo.8289020)
 
-![Logo](Hx2DL.png)
+![Logo](Hy2DL.png)
 
 Hy<sup>2</sup>DL is a python library to create hydrological models for rainfall-runoff prediction, which make use of deep learning methods. The main idea of this repository is to provide models that are 'easy' to understand, interpret and implement. This 'ease', naturally, comes at the cost of code modularity and, to some extent flexibility. The logic of the codes presented here are heavily based on 'NeuralHydrology --- A Python library for Deep Learning research in hydrology' (https://github.com/neuralhydrology/neuralhydrology.git). For a more flexible, robust and modular implementation of deep learning method in hydrological modeling we advice the use of Neural Hydrology.
 
