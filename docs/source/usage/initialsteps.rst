@@ -1,3 +1,7 @@
+Initial Steps
+==============
+
+
 Prerequisites
 -------------
 As a first step you need a Python environment with all required dependencies. 
