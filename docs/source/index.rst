@@ -16,5 +16,3 @@ In addition to Long Short Term Memory (LSTM) network architectures, the reposito
 
    usage/initialsteps
    usage/datasetzoo
-   usage/modelzoo
-   usage/experiments
