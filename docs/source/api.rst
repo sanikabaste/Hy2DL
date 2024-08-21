@@ -9,7 +9,7 @@ Camels CH
 Camels GB
 ========
 
-.. automodule:: Hy2DL.datasetzoo.camelsgb
+.. automodule:: datasetzoo.camelsgb
    :members:
    :undoc-members:
    :show-inheritance:
