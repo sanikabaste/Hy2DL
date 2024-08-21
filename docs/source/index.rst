@@ -15,4 +15,6 @@ In addition to Long Short Term Memory (LSTM) network architectures, the reposito
    :caption: Contents:
 
    usage/initialsteps
-   api/Hy2DL
+   usage/datasetzoo
+   usage/modelzoo
+   usage/experiments
