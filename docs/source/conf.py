@@ -76,4 +76,6 @@ autodoc_mock_imports = [
     'scipy',
     'tqdm',
     'xarray',
+    'numpy',
+    'torch'
 ]
