@@ -1,5 +1,5 @@
 CudaLSTM
 ===========
 
-.. automodule:: Hy2DL.datasetzoo.cudalstm
+.. automodule:: Hy2DL.modelzoo.cudalstm
     :members:
