@@ -3,11 +3,9 @@ Hy2DL.datasetzoo
 
 .. automodule:: Hy2DL.datasetzoo
    :members:
-   :undoc-members:
-   :show-inheritance:
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
    Hy2DL.datasetzoo.basedataset
    Hy2DL.datasetzoo.camelsde
