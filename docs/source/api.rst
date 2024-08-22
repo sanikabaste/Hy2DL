@@ -1,7 +1,7 @@
-Camels CH
+GRU
 ========
 
-.. automodule:: datasetzoo.camelsch
+.. automodule:: Hy2DL.modelzoo.gru
    :members:
    :undoc-members:
    :show-inheritance:
