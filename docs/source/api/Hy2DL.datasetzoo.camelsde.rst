@@ -1,5 +1,5 @@
-CamelsDE
-=========
+Camels DE
+===========
 
 .. automodule:: datasetzoo.camelsde
    :members:
