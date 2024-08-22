@@ -14,7 +14,7 @@ The codes presented in the repository are in the form of python scripts. Additio
 Detailed documentation for the repository can be found at [Hy2DL.readthedocs.io](https://hy2dl.readthedocs.io/en/latest/index.html). 
 
 Following is a quick overview of the repository structure:
-- **data**: Information necessary to run the codes. The CAMELS-GB and/or CAMELS-US datasets should be added here.
+- **data**: Information necessary to run the codes. The dataset chosen for analyses should be added here. This folder also consists of a .txt file containg the catchment IDs in a format consistent with the nomenclature in the original dataset.
 - **aux_functions**: auxiliary functions to run the codes
 - **benchmarks**: Information from other studies that was used to benchmark our models
 - **conceptual_models**: Present the codes to calibrate basin-wise process-based hydrological model. The calibration routines are based on the SPOTPY library (https://spotpy.readthedocs.io/en/latest/). The process-based models are used as baselines to compare the performance of the hybrid models.
