@@ -1,5 +1,5 @@
-CamelsGB
-========
+Camels GB
+==========
 
 .. automodule:: datasetzoo.camelsgb
    :members:
