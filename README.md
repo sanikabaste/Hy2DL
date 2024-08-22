@@ -10,7 +10,10 @@ In addition to Long Short Term Memory (LSTM) network architectures, the reposito
 
 ## Structure of the repository:
 
-Detailed documentation for the repository can be found at [Hy2DL.readthedocs.io](https://hy2dl.readthedocs.io/en/latest/index.html). Following is a quick overview of the repository structure:
+The codes presented in the repository are in the form of python scripts. Additionally several experiments are in the form of JupyterNotebooks for easy reproduction and execution.
+Detailed documentation for the repository can be found at [Hy2DL.readthedocs.io](https://hy2dl.readthedocs.io/en/latest/index.html). 
+
+Following is a quick overview of the repository structure:
 - **data**: Information necessary to run the codes. The CAMELS-GB and/or CAMELS-US datasets should be added here.
 - **aux_functions**: auxiliary functions to run the codes
 - **benchmarks**: Information from other studies that was used to benchmark our models
