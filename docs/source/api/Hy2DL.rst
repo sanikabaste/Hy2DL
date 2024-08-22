@@ -9,4 +9,5 @@ Hy2DL API
 .. toctree::
    :maxdepth: 4
 
-   Hy2DL.datasetzoo
+   datasetzoo
+   modelzoo
