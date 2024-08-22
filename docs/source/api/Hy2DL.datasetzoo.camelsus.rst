@@ -1,7 +1,7 @@
 Camels US
 ==========
 
-.. automodule:: datasetzoo.camelsus
+.. automodule:: Hy2DL.datasetzoo.camelsus
    :members:
    :undoc-members:
    :show-inheritance:
