@@ -23,8 +23,8 @@ Training and evaluating models requires a dataset.
 If you're unsure where to start, a common dataset is CAMELS US, available at
 `CAMELS US (NCAR) <https://ral.ucar.edu/solutions/products/camels>`_.
 
-Additionally, the repository also includes experiments which make use of the 'CAMELS GB <https://doi.org/10.5285/8344e4f3-d2ea-44f5-8afa-86d2987543a9>'_,
-'CAMELS CH <https://zenodo.org/records/10354485>'_, CAMELS DE and the CARAVAN datasets. 
+Additionally, the repository also includes experiments which make use of the `CAMELS GB <https://doi.org/10.5285/8344e4f3-d2ea-44f5-8afa-86d2987543a9>`_,
+`CAMELS CH <https://zenodo.org/records/10354485>`_, CAMELS DE and the CARAVAN datasets. 
 
 The datasets are freely available for public use. The downloaded datasets should be
 uploaded to the 'data' folder ensuring that the folder structure remains intact. Ensuring that the folder structure or their names remain intact is essential
