@@ -1,7 +1,7 @@
-GRU
+cudalstm
 ========
 
-.. automodule:: modelzoo.gru
+.. automodule:: modelzoo.cudalstm
    :members:
    :undoc-members:
    :show-inheritance:
