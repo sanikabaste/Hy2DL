@@ -15,5 +15,4 @@ In addition to Long Short Term Memory (LSTM) network architectures, the reposito
    :caption: Contents:
 
    usage/initialsteps
-   usage/datasetzoo
    api
