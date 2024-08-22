@@ -1,7 +1,7 @@
 BaseDataset
 ===========
 
-.. automodule:: Hy2DL.datasetzoo.basedataset
+.. automodule:: datasetzoo.basedataset
     :members:
     :undoc-members:
     :show-inheritance:
