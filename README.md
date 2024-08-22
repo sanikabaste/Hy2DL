@@ -1,8 +1,6 @@
 # Hy<sup>2</sup>DL: Hybrid Hydrological modeling using Deep Learning methods
 [![DOI](https://zenodo.org/badge/684006081.svg)](https://zenodo.org/doi/10.5281/zenodo.8289020)
 
-<img align="left" src="https://github.com/sanikabaste/Hy2DL/blob/sanikabaste-read-me-patch/Hy2DL_2.png" width="35%" height="35%">
-
 <p align="justify">
 Hy<sup>2</sup>DL is a python library to create hydrological models for rainfall-runoff prediction, which make use of deep learning methods. The main idea of this repository is to provide models that are 'easy' to understand, interpret and implement. This 'ease', naturally, comes at the cost of code modularity and, to some extent flexibility. The logic of the codes presented here are heavily based on 'NeuralHydrology --- A Python library for Deep Learning research in hydrology' (https://github.com/neuralhydrology/neuralhydrology.git). For a more flexible, robust and modular implementation of deep learning method in hydrological modeling we advice the use of Neural Hydrology.
 
@@ -30,12 +28,8 @@ This code is part of our study
 ```
 Acuña Espinoza, E., Loritz, R., Álvarez Chaves, M., Bäuerle, N., and Ehret, U.: To Bucket or not to Bucket? Analyzing the performance and interpretability of hybrid hydrological models with dynamic parameterization, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2023-1980, 2023.
 ```
-
 - If you want to reproduce the experiments of this paper, run the scripts: Hybrid_LSTM_SHM.ipynb, Hybrid_LSTM_Bucket.ipynb, Hybrid_LSTM_NonSense.ipynb, LSTM_CAMELS_GB.ipynb and LSTM_CAMELS_US.ipynb located in the path Hy2DL/experiments/.
 - If you want to reproduce the figures without re-running the experiments, copy the files located in the result folder of the repository https://zenodo.org/records/11103634 and paste them into Hy2DL/results/. Then run the notebook Results_Analysis.ipynb.
-
-
-![HybridModel](LSTM_SHM.png)
 
 ## Authors:
  - Eduardo Acuña Espinoza (eduardo.espinoza@kit.edu)
