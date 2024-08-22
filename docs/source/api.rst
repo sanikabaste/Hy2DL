@@ -1,7 +1,7 @@
 GRU
 ========
 
-.. automodule:: Hy2DL.modelzoo.gru
+.. automodule:: modelzoo.gru
    :members:
    :undoc-members:
    :show-inheritance:
