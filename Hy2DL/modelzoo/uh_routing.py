@@ -1,7 +1,7 @@
 from typing import List, Dict, Tuple
 import torch
 import torch.nn as nn
-from baseconceptualmodel import BaseConceptualModel
+from Hy2DL.modelzoo.baseconceptualmodel import BaseConceptualModel
 
 class UH_routing(BaseConceptualModel):
     """Unit hydrograph routing based on gamma function.
