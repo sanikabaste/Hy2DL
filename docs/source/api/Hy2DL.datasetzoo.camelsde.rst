@@ -1,7 +1,7 @@
 CamelsDE
-========
+=========
 
-.. automodule:: Hy2DL.datasetzoo.camelsde
+.. automodule:: datasetzoo.camelsde
    :members:
    :undoc-members:
    :show-inheritance:
