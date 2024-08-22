@@ -10,4 +10,3 @@ Hy2DL API
    :maxdepth: 4
 
    Hy2DL.datasetzoo
-   Hy2DL.modelzoo
