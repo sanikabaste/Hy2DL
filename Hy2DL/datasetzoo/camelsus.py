@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from typing import List, Tuple, Optional
-from basedataset import BaseDataset
+from Hy2DL.datasetzoo.basedataset import BaseDataset
 
 
 class CAMELS_US(BaseDataset):
