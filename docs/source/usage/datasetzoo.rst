@@ -1,5 +1,9 @@
 Building Data Sets
 ==================
 
-CAMELS_US
+basedataset
 ------------------
+..automodule:: Hy2DL.datasetzoo.basedataset
+  :members:
+  :undoc-members:
+  :show-inheritance:
