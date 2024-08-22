@@ -1,7 +1,7 @@
 Camels GB
 ==========
 
-.. automodule:: datasetzoo.camelsgb
+.. automodule:: Hy2DL.datasetzoo.camelsgb
    :members:
    :undoc-members:
    :show-inheritance:
