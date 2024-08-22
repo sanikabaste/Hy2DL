@@ -1,15 +1,15 @@
 cudalstm
-========
+=========
 
 .. automodule:: modelzoo.cudalstm
    :members:
    :undoc-members:
    :show-inheritance:
 
-Camels GB
-========
+Dataset Zoo
+=============
 
-.. automodule:: datasetzoo.basedataset
+.. automodule:: datasetzoo
    :members:
    :undoc-members:
    :show-inheritance:
