@@ -1,7 +1,7 @@
 CARAVAN
 ========
 
-.. automodule:: datasetzoo.caravan
+.. automodule:: Hy2DL.datasetzoo.caravan
    :members:
    :undoc-members:
    :show-inheritance:
