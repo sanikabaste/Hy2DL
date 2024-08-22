@@ -9,7 +9,7 @@ cudalstm
 Camels GB
 ========
 
-.. automodule:: datasetzoo.camelsgb
+.. automodule:: datasetzoo.basedataset
    :members:
    :undoc-members:
    :show-inheritance:
