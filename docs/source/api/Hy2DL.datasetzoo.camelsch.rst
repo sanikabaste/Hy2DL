@@ -1,7 +1,7 @@
 CamelsCH
 ========
 
-.. automodule:: datasetzoo.camelsch
+.. automodule:: Hy2DL.datasetzoo.camelsch
    :members:
    :undoc-members:
    :show-inheritance:
