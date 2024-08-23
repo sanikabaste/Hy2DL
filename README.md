@@ -6,7 +6,6 @@ Hy<sup>2</sup>DL is a python library to create hydrological models for rainfall-
 
 In addition to Long Short Term Memory (LSTM) network architectures, the repository also features hybrid hydrological models which use an LSTM network combined with a process based rainfall-runoff model and transformer based hydrological model. Regional hydrological models for several datasets namely the CAMELS_GB, CAMELS_US, CAMELS_CH, CAMELS_DE and the CARAVAN are at the user's easy disposal.
 </p>
-<br />
 
 ## Structure of the repository:
 
