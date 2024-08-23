@@ -215,15 +215,15 @@ class BaseDataset(Dataset):
     
     def calculate_global_statistics(self, path_save_scaler:Optional[str] = ''):
         """Fill the self.scalar dictionary 
+
+        The function calculates the global mean and standard deviation of the dynamic inputs, target variables and 
+        static attributes, and store the in a dictionary. It will be used later to standardize used in the LSTM. This
+        function should be called only in training period. 
         
         Parameters
         ----------
         path_save_scalar : str
             path to save the scaler as a pickle file 
-        
-        The function calculates the global mean and standard deviation of the dynamic inputs, target variables and 
-        static attributes, and store the in a dictionary. It will be used later to standardize used in the LSTM. This
-        function should be called only in training period. 
         """
         global_x = np.vstack([df.loc[:, self.dynamic_input].values for df in self.df_ts.values()])
         self.scaler['x_d_mean'] = torch.tensor(np.nanmean(global_x, axis=0), dtype=torch.float32)
